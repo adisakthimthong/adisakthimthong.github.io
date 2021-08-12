@@ -1,16 +1,14 @@
 <template lang="html">
-    <div>
-        <Topbar></Topbar>
-        <b-container>
-          <Nuxt></Nuxt>
-        </b-container>
+  <div>
+    <Topbar></Topbar>
+    <div class="container py-5">
+      <Nuxt></Nuxt>
     </div>
+  </div>
 </template>
 <script>
-export default {
-    
-}
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap';
+export default {};
 </script>
-<style lang="">
-    
-</style>
+<style lang=""></style>
