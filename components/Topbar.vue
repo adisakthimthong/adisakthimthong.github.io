@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <NuxtLink class="navbar-brand" :to="{ name: 'index' }"
-          >BLONGBENZ</NuxtLink
+          >BLOGBENZ</NuxtLink
         >
         <button
           class="navbar-toggler"
