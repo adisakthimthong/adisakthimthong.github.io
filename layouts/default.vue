@@ -1,5 +1,5 @@
 <template lang="html">
-  <div>
+  <div class="content-wrapper">
     <Topbar></Topbar>
     <div class="container py-5">
       <Nuxt></Nuxt>
@@ -11,4 +11,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
 export default {};
 </script>
-<style lang=""></style>
+<style lang="scss">
+.content-wrapper{
+  background-color: rgba($color10, .7);
+  min-height: 100vh;
+}
+</style>

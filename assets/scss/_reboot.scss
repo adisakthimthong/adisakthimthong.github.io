@@ -1,0 +1,10 @@
+@import 'variable';
+
+body{
+    font-family: $font-family-default;
+    font-size: $font-size-default;
+
+    @media (min-width: $breakpoint-md) {
+        font-size: $font-md-size-default;
+    }
+}

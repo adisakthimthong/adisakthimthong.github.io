@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <NuxtLink class="navbar-brand" :to="{ name: 'index' }"
           >BLONGBENZ</NuxtLink
@@ -24,15 +24,13 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">Menu 2</a>
             </li>
             <li class="nav-item">
               <a
-                class="nav-link disabled"
+                class="nav-link"
                 href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
+                >Menu 3</a
               >
             </li>
           </ul>
@@ -45,7 +43,11 @@
 export default {};
 </script>
 <style lang="scss">
-.nav-link {
-  color: rgb(189, 1, 1) !important;
+.navbar {
+  background-color: $color2;
+
+  .navbar-brand, .nav-link{
+    color: $color-white !important;
+  }
 }
 </style>
