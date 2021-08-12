@@ -13,9 +13,6 @@ export default {
         return{
             post: postData,
         };
-    },
-    mounted(){
-        console.log('this.post', this.post);
     }
 }
 </script>

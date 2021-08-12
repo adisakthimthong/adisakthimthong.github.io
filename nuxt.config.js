@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'BLONG-BENZ',
+    title: 'BLONGBENZ',
     htmlAttrs: {
       lang: 'en'
     },
